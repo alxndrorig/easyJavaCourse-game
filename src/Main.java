@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Main{
 
     private static void showTypeOfHero(int typeOfHero) {
@@ -81,5 +79,6 @@ public class Main{
         cave(70, 75);
         caveSecurity(53, 3, 35);
         levels();
+        Player player = new Player("Boss", 15, "Killer");
     }
 }
